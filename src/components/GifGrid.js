@@ -13,9 +13,9 @@ export const GifGrid = ({category}) => {
 
     return (
         <>
-        <h3>{category}</h3>
+        <h3 className="animate__fadeIn">{category}</h3>
             {/* {loading ? <p>Loading</p> : null} si es true muestra loading, caso contrario no muestra nada */}
-            {loading && <p>Loading</p>}// si es true muestra el loading , caso contrario no muestra nada
+            {loading && <p>Loading</p>} 
          <div className="card-grid">
          
                 {
