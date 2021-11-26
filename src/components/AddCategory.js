@@ -6,7 +6,6 @@ export const AddCategory = ({setCategories}) => {
     const [inputValue, setInputValue] = useState('');
 
     const handleInputChange = (e) => {
-     
         setInputValue(e.target.value);
     }
 
@@ -31,7 +30,6 @@ export const AddCategory = ({setCategories}) => {
                     onChange={handleInputChange}//se activa cada vez que la caja de texto cambie
                 />
             </form>
-           
         </>
     )
 }
